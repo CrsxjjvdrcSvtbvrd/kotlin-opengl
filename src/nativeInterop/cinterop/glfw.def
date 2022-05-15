@@ -1,0 +1,6 @@
+headers = GLFW/glfw3.h GLFW/glfw3native.h
+staticLibraries = libglfw3.a glfw3.dll
+package = glfw
+libraryPaths = library/lib library/bin
+linkerOpts = -Llibrary/lib -Llibrary/bin -lgdi32 -lopengl32 -lglfw3
+compilerOpts = -Llibrary/lib -Llibrary/bin -lgdi32 -lopengl32 -lglfw3

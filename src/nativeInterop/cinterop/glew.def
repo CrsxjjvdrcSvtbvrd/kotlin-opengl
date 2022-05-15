@@ -1,0 +1,6 @@
+headers = GL/glew.h GL/wglew.h
+staticLibraries = glew32.lib glew32.dll
+package = glew
+libraryPaths = library/lib library/bin
+linkerOpts = -Llibrary/lib -Llibrary/bin -lopengl32 -lglew32
+compilerOpts = -Llibrary/lib -Llibrary/bin
